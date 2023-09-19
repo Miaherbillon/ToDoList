@@ -1,0 +1,44 @@
+body {
+  width: 100vw;
+  background-color: wheat;
+}
+h1 {
+  width: 80vw;
+  height: 10vh;
+  margin: -10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  color: black;
+}
+h1:hover {
+  color: pink;
+  background-color: black;
+}
+.Ajout {
+  margin: 0 20px;
+}
+section {
+  width: 80vw;
+  margin: auto;
+}
+.list {
+  width: 20vw;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.list div {
+  gap: 20px;
+  align-items: center;
+}
+.list button {
+  width: 5vw;
+  font-size: 2vh;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.list button:hover {
+  color: red;
+}
